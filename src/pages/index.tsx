@@ -9,8 +9,6 @@ export default function Home(){
       <div>
         <Hero />
         <Posts />
-        <Posts/>
-        <Posts/>
       </div>
     </Layout>
   )

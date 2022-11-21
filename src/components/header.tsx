@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import LOGO_IMG from "../images/header_logo.png"
 import "../styles/header.css"
 
-export default function header(){
+export default function Header(){
     return(
         <header>
             <Link to="/">
