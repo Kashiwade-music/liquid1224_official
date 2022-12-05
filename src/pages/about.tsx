@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Layout } from "../components/layout";
 
-export default function About() {
-    return(
-        <>
-            <div>About</div>
-            <Link to="/">Back to home</Link>
-        </>
-    )
+export default function About(){
+  return(
+    <Layout>
+      <div>about</div>
+    </Layout>
+  )
 }

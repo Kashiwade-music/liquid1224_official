@@ -1,10 +1,10 @@
 import React from "react";
 import { Layout } from "../components/layout";
 
-export default function Home(){
+export default function Links(){
   return(
     <Layout>
-      <div>hello</div>
+      <div>links</div>
     </Layout>
   )
 }
