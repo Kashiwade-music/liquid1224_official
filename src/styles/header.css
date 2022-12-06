@@ -1,25 +1,27 @@
 .header{
-    width: 800px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 0px auto;
+    background-color: aqua;
 }
 
 .header_img{
-    width: 250px;
+    width: 230px;
 }
 
-.header_img_link{
-    margin: 0 auto;
-    padding: 10px 20px;
-    display: inline-block;
+.header_img_sp{
+    width: 150px;
 }
 
 .nav ul{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav ul li{
-    padding: 0px 20px;
+    padding: 10px 20px;
+    flex: 1;
+    text-align: center;
 }
 
 ul{

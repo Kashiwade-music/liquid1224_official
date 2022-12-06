@@ -9,11 +9,5 @@ module.exports={
     siteUrl: `https://liquid1224.net`,
     description: "@liquid1224のオフィシャルサイトです。"
   },
-  plugins: [{
-    resolve: 'gatsby-source-contentful',
-    options: {
-      "accessToken": process.env.GATSBY_CONTENTFUL_API_KEY,
-      "spaceId": process.env.GATSBY_CONTENTFUL_SPACE_ID
-    }
-  }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp"]
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp"]
 };
