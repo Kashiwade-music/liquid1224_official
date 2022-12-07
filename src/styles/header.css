@@ -1,15 +1,20 @@
 .header{
+    background-color: #0d060c;
+}
+
+.header_wrapper{
     max-width: 800px;
     margin: 0px auto;
-    background-color: aqua;
 }
 
 .header_img{
     width: 230px;
+    filter:invert(100%);
 }
 
 .header_img_sp{
     width: 150px;
+    filter: invert(100%);
 }
 
 .nav ul{
@@ -31,6 +36,6 @@ ul{
 }
 
 .link{
-    color: black;
+    color: #f2f9f3;
     text-decoration: none;
 }
