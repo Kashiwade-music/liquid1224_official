@@ -1,5 +1,5 @@
-import { Link } from "gatsby";
 import React from "react";
+import { Link } from "gatsby";
 import MediaQuery from "react-responsive"
 import Burger from "../components/burger"
 import "../styles/header.css"
