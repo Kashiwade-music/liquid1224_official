@@ -5,27 +5,6 @@ export default function About(){
   return(
     <Layout>
       <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
-      <div>about</div>
     </Layout>
   )
 }
