@@ -7,7 +7,7 @@ export default function Home(){
   return(
     <Layout>
       <div className="carousel_wrapper">
-        <TopCarousel></TopCarousel>
+        <TopCarousel ></TopCarousel>
       </div>
     </Layout>
   )

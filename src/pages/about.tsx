@@ -4,7 +4,33 @@ import { Layout } from "../components/layout";
 export default function About(){
   return(
     <Layout>
-      <div>about</div>
+      <div>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+      </div>
     </Layout>
   )
 }
