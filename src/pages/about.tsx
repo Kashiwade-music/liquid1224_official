@@ -30,6 +30,25 @@ export default function About(){
         about<br/>
         about<br/>
         about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
+        about<br/>
       </div>
     </Layout>
   )
