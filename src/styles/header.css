@@ -1,9 +1,17 @@
 .header{
     background-color: #0d060c;
+    align-items: center;
 }
 
 .header_wrapper{
     max-width: 800px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+.header_wrapper_sp{
+    max-width: 600px;
+    height: 70px;
     margin: 0px auto;
 }
 

@@ -23,11 +23,13 @@ export default function Header(){
             </MediaQuery>
             <MediaQuery maxWidth={649}>
                 <Burger></Burger>
-                <nav className="nav">
-                    <ul>
-                        <li><Link to="/"><img src={LOGO_IMG} className="header_img_sp"></img></Link></li>
-                    </ul>
-                </nav>
+                <div className="header_wrapper_sp">
+                    <nav className="nav">
+                        <ul>
+                            <li><Link to="/"><img src={LOGO_IMG} className="header_img_sp"></img></Link></li>
+                        </ul>
+                    </nav>
+                </div>
             </MediaQuery>
         </header>
     )
