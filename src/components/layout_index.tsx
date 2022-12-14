@@ -7,7 +7,7 @@ type LayoutProps = Required<{readonly children: ReactElement}>
 
 export const Layout = ({children}: LayoutProps) => {
     return (
-        <div className="layout">
+        <div className="layout_index">
             <Header/>
             <main>{children}</main>
         </div>

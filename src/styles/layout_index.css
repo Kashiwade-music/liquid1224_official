@@ -1,11 +1,11 @@
-.layout{
+.layout_index{
     color: #f2f9f3;
     background-color: #251e24;
     display: flex;
     flex-flow: column;
 }
 
-main{
+.layout_index main{
     display: flex;
     flex-flow: column;
     justify-content: center;
