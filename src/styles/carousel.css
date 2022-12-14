@@ -1,3 +1,5 @@
-.carousel {
-    
+.carousel .slide img {
+  width: auto;
+  vertical-align: top;
+  border: 0;
 }

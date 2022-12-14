@@ -1,14 +1,18 @@
-.layout_index{
-    color: #f2f9f3;
-    background-color: #251e24;
-    display: flex;
-    flex-flow: column;
-    min-height: 100vh;
+.layout_index {
+  color: #f2f9f3;
+  background-color: #251e24;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  min-height: 100vh;
 }
 
-.layout_index main{
-    height: calc( 100vh - 80px );
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.layout_index main {
+  height: calc(100vh - 80px);
+  grid-area: 2 / 1 / 3 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
