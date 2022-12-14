@@ -6,6 +6,7 @@ import "../styles/burger.css"
 export default function Burger() {
     return(
         <Menu>
+            <Link to="/" className="link">Top</Link>
             <Link to="/about" className="link">About</Link>
             <Link to="/works" className="link">Works</Link>
             <Link to="/links" className="link">Links</Link>

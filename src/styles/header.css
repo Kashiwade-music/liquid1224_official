@@ -5,25 +5,13 @@
 
 .header_wrapper{
     max-width: 800px;
-    height: 100px;
-    margin: 0px auto;
-}
-
-.header_wrapper_sp{
-    max-width: 600px;
-    height: 70px;
+    height: 80px;
     margin: 0px auto;
 }
 
 .header_img{
-    width: 230px;
+    height: 60px;
     filter:invert(100%);
-    vertical-align: bottom;
-}
-
-.header_img_sp{
-    width: 140px;
-    filter: invert(100%);
     vertical-align: bottom;
 }
 

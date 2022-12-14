@@ -6,7 +6,7 @@ import "../styles/index.css"
 export default function Home(){
   return(
     <Layout>
-      <TopCarousel ></TopCarousel>
+      <TopCarousel/>
     </Layout>
   )
 }
